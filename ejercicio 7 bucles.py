@@ -14,8 +14,8 @@ azar = random.randint(0, 100)
 
 print('\t.:Juego adivina el número de 0 al 100:.')
 
+print(azar)
 contador=0
-
 while True:
     numero = int(input('Digite un numero: '))
     contador += 1
@@ -28,6 +28,12 @@ while True:
         break
     
 print(f'Te llevó {contador} intentos')
+if contador<10 and contador>5:
+    print(f'Bastante bien che')
+elif contador<4:
+        print('Que lo pario')
+else:
+    print(f'Que desastre!')
 
                  
     
