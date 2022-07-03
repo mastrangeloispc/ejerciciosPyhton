@@ -19,6 +19,8 @@ while True:
     print('3. Ver contactos existentes')
     print('4. Salir')
     opcion=int(input(f'\nDigite una Opción del Menú '))
+    if opcion!=1 and opcion!=2 and opcion!=3 and opcion!=4:
+        break
     
     print()
     

@@ -1,7 +1,7 @@
 ''' Hacer un programa que pida 2 numero y se de cuenta
 de cual de ellos es par, o si ambos lo son
 
-%	Realiza un módulo entre los operandos	16 % 3 = 1
+% Realiza un módulo entre los operando 16 % 3 = 1
 
 '''
 

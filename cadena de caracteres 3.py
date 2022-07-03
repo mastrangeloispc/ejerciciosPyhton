@@ -36,10 +36,12 @@ print(cadena)
 cadena = "10003sada".isalnum() # son todos alfanumericos? True o False
 print(cadena)
 
+cadena = "hola mundo".islower() # todo en minuscula?
+print(cadena)
 
+cadena = "hola mundo".isupper() # todo en mayuscula?
+print(cadena)
 
-
-
-
-
+cadena = "hola mundo".istitle() # titulo?
+cadena = "hola mundo".isspace() # espacios?
 
